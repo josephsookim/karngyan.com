@@ -1,17 +1,17 @@
 // Upload files in static/ So any file static/file.pdf -> /file.pdf is accessible at root
 
 export default {
-  name: 'gyan prakash karn',
-  domain: 'template.karngyan.com', // add without https:// , used in meta tags and share urls
-  image: '/images/bigheadkarngyan.png',
-  email: 'mail@karngyan.com',
+  name: 'Joseph Kim',
+  domain: 'josephsookim.com', // add without https:// , used in meta tags and share urls
+  image: '/images/people/JOSEPH_PFP.jpg',
+  email: 'josephkimcodes@gmail.com',
   googleAnalyticsV4: {
     enabled: false,
     id: ''
   },
   plausibleAnalytics: {
-    enabled: true,
-    domain: 'template.karngyan.com',
+    enabled: false,
+    domain: 'josephsookim.com',
     trackLocalhost: false,
     // leave it empty if plausible is not self hosted
     apiHost: 'https://analytics.lookatx.dev' // default: https://plausible.io
@@ -22,16 +22,16 @@ export default {
     enabled: false
   },
   social: {
-    github: 'karngyan',
-    linkedin: 'karngyan',
-    facebook: 'karnsometimes',
-    twitter: 'gyankarn',
-    instagram: 'karngyan.dev',
-    codestats: 'karngyan' // https://codestats.net make a profile if you dont already have one.
+    github: 'josephsookim',
+    linkedin: 'josephsookim',
+    facebook: '',
+    twitter: '',
+    instagram: 'josephsookim',
+    codestats: '' // https://codestats.net make a profile if you dont already have one.
   },
   buyMeACoffee: {
-    enabled: true,
-    url: 'https://www.buymeacoffee.com/karngyan'
+    enabled: false,
+    url: 'https://www.buymeacoffee.com/'
   },
   projects: {
     enabled: true,
@@ -41,10 +41,10 @@ export default {
   },
   resume: {
     enabled: true,
-    pdfUrl: '/RESUME_GYAN_KARN_DARK.pdf' // add files in static folder
+    pdfUrl: '/RESUME_JOSEPH_KIM.pdf' // add files in static folder
   },
   uses: {
-    enabled: true,
+    enabled: false,
     meta: [
       {title: 'OS', value: 'macOS Catalina'},
       {title: 'Memory', value: '16 GB 2667 MHz DDR4'},
@@ -58,17 +58,13 @@ export default {
     // add logos in static and at max add 3/4
     enabled: true,
     meta: [
-      { name: 'SendPost', src: '/images/sendpost.png', url: 'https://sendpost.io' },
-      { name: 'Amazon', src: '/images/amazon.png', url: 'https://amazon.in' },
-      { name: 'InterviewReady', src: '/images/interviewready-io.png', url: 'https://get.interviewready.io' },
-      { name: 'CrioDo', src: '/images/crio.png', url: 'https://crio.do' },
+      { name: 'Paper Triangles', src: '/images/companies/papertriangles.png', url: 'https://www.papertriangles.com/' },
     ]
   },
   recommendations: {
     enabled: true,
     meta: [
-      { name: 'Varun Jain', designation: 'Founder, SendX & SendPost', image: '/images/varun.jpeg', linkedin: 'https://www.linkedin.com/in/varun-jain-582b0215/', content: 'Gyan interned with SendX and SendPost for around 6 months. He is a very strong full-stack engineer who can create pixel perfect frontend while being able to work on backend pieces sending millions of emails per day. He is a quick learner, a great team player and, has a very strong work ethic. You can rely on him that things will be done with utmost quality. He also has pretty good product instincts and can think from the user\'s perspective.' },
-      { name: 'Gaurav Sen', designation: 'Founder, InterviewReady', image: '/images/gaurav.jpeg', linkedin: 'https://www.linkedin.com/in/gkcs/', content: 'Karn is an extraordinarily talented, diligent and foresighted individual. He is gifted at building products from paper to code, and has a knack of finding efficient solutions to complex problems. In my experience, I have rarely seen such a mixture of talent and passion put together. At InterviewReady, Karn exceeded our expectations. If you are considering working with him: congratulations, you are going to have a great time!' },
+      { name: 'Jacob Jun', designation: 'Software Engineer Intern, Google', image: '/images/people/jacob_jun.jpeg', linkedin: 'https://www.linkedin.com/in/jacob-jun/', content: 'Collaborating with Joseph has been a truly enriching experience. He consistently demonstrates an exceptional work ethic, dedicating himself tirelessly to every task and project. His perseverance, even in the face of challenging situations, is particularly admirable, as he approaches each obstacle with a positive attitude and a solution-oriented mindset. Joseph\'s commitment and resilience not only drive projects forward but also inspire those around him to strive for excellence.' },
     ]
   },
   loadingIndicator: {
@@ -97,17 +93,17 @@ export default {
         blog: 'blog',
         projects: 'projects',
         uses: 'uses',
-        resume: 'résumé',
+        resume: 'resume',
         buyMeACoffee: 'buy me a beer',
         signIn: 'sign in',
         signOut: 'sign out'
       },
       hero: {
-        iBlogTech: 'i blog tech',
+        iBlogTech: 'i blog tech/life',
         haveALook: 'have a look',
-        friendlyNeighborhood: 'your friendly neighborhood',
-        description: 'i am a software engineer and a part time freelancer. i blog tech, write a weekend newsletter called software shots, and tinker with side projects every now n then.',
-        words: ['developer', 'designer', 'engineer', 'programmer', 'encoder'],
+        friendlyNeighborhood: 'i am a',
+        description: 'i used to be a freelancer, but right now im finding my passion in software engineering',
+        words: ['developer', 'hard worker', 'designer', 'teammate', 'programmer', 'leader'],
       },
       githubCalendar: {
         header: 'contributions',
@@ -115,11 +111,11 @@ export default {
       },
       blog: {
         header: 'blog',
-        subtext: 'i try to write once in a while. let me know your thoughts in comments or mail@karngyan.com'
+        subtext: 'i try to write once in a while. let me know your thoughts via email: josephkimcodes@gmail.com'
       },
       recentBlog: {
         header: 'recent blogs',
-        subtext: 'it takes a lot of time to write man'
+        subtext: 'what do i say'
       },
       uses: {
         header: 'uses',
@@ -131,7 +127,7 @@ export default {
       },
       recommendations: {
         header: 'recommendations',
-        subtext: 'what do my mentors say'
+        subtext: 'what do my peers/mentors say'
       }
     }
   }
