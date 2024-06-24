@@ -59,6 +59,7 @@ export default {
     enabled: true,
     meta: [
       { name: 'Paper Triangles', src: '/images/companies/papertriangles.png', url: 'https://www.papertriangles.com/' },
+      { name: 'DataAnnotation.tech', src: '/images/companies/dataannotationtech.png', url: 'https://www.dataannotation.tech/' },
     ]
   },
   recommendations: {
