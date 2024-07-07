@@ -21,10 +21,10 @@ As part of my coursework at UCI, I undertook a comprehensive project to develop 
 
 **Objective:** Implement a web crawler to gather data from specified UCI domains:
 
-- `*.ics.uci.edu/*`
-- `*.cs.uci.edu/*`
-- `*.informatics.uci.edu/*`
-- `*.stat.uci.edu/*`
+- \*.ics.uci.edu/\*
+- \*.cs.uci.edu/\*
+- \*.informatics.uci.edu/\*
+- \*.stat.uci.edu/\*
 
 **Key Tasks:**
 
