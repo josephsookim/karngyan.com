@@ -65,7 +65,7 @@ export default {
   recommendations: {
     enabled: true,
     meta: [
-      { name: 'Jacob Jun', designation: 'Software Engineer Intern, Google', image: '/images/people/jacob_jun.jpeg', linkedin: 'https://www.linkedin.com/in/jacob-jun/', content: 'Collaborating with Joseph has been a truly enriching experience. He consistently demonstrates an exceptional work ethic, dedicating himself tirelessly to every task and project. His perseverance, even in the face of challenging situations, is particularly admirable, as he approaches each obstacle with a positive attitude and a solution-oriented mindset. Joseph\'s commitment and resilience not only drive projects forward but also inspire those around him to strive for excellence.' },
+      { name: 'Jacob Jun', designation: 'Software Engineer, Google', image: '/images/people/jacob_jun.jpeg', linkedin: 'https://www.linkedin.com/in/jacob-jun/', content: 'Collaborating with Joseph has been a truly enriching experience. He consistently demonstrates an exceptional work ethic, dedicating himself tirelessly to every task and project. His perseverance, even in the face of challenging situations, is particularly admirable, as he approaches each obstacle with a positive attitude and a solution-oriented mindset. Joseph\'s commitment and resilience not only drive projects forward but also inspire those around him to strive for excellence.' },
     ]
   },
   loadingIndicator: {
