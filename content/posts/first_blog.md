@@ -11,7 +11,7 @@ category: dev
 author:
   name: Joseph
   twitter: KimchiiJoe
-  image: /images/people/JOSEPH_PFP_SHORT.png
+  image: /images/people/JOSEPH_PFP_SHORT.jpg
 ---
 
 This blog post will be the first of many. I would say it's the start of something great to come...

@@ -3,7 +3,7 @@ id: 3
 title: Portfolio v2
 description: second iteration of my personal website
 tech: html css js bootstrap jquery
-logo: /images/people/JOSEPH_PFP_SHORT.png
+logo: /images/people/JOSEPH_PFP_SHORT.jpg
 website: https://github.com/josephsookim/v2
 github: https://github.com/josephsookim/v2
 twitter: KimchiiJoe
