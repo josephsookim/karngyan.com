@@ -103,7 +103,7 @@ export default {
         iBlogTech: 'i blog tech/life',
         haveALook: 'have a look',
         friendlyNeighborhood: 'i am a',
-        description: 'i used to be a freelancer, but right now im finding my passion in software engineering',
+        description: 'i used to be a freelancer, but right now im planning something big',
         words: ['developer', 'hard worker', 'designer', 'teammate', 'programmer', 'leader'],
       },
       githubCalendar: {
