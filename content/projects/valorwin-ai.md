@@ -1,10 +1,10 @@
 ---
 id: 9
 title: ValorWin AI
-description: An AI model utilizing random forest classification to assess the likelihood of winning individual rounds and entire matches in Valorant.
+description: An AI model (now a Full Stack Web App) utilizing random forest classification to assess the likelihood of winning individual rounds and entire matches in Valorant.
 tech: python
 logo: /images/projects/valorwin.png
-website: https://github.com/josephsookim/valorwin-model
+website: https://valorwin.vercel.app/
 github: https://github.com/josephsookim/valorwin-model
 twitter: KimchiiJoe
 ---
